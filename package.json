@@ -1,0 +1,13 @@
+{
+  "name": "qr-bruteforce",
+  "private": true,
+  "scripts": {
+    "install": "lerna bootstrap",
+    "start": "lerna run --scope app start",
+    "clear": "lerna run --scope app clear"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.5.12",
+    "lerna": "^4.0.0"
+  }
+}
