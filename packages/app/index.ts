@@ -53,7 +53,7 @@ console.log(`processing ${count} attempts to load certificates...`);
 
   const browser = await puppeteer.launch({
     defaultViewport: { width: 1000, height: 500 },
-    executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',  // get Chrome browser
+    //executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',  // get Chrome browser on MacOS
     headless: false // turn off headless mode because since government services will be define and block it
   });
 
